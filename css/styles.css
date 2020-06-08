@@ -1,0 +1,35 @@
+/* Global styles --------------- */
+body{
+
+}
+/* NavBar styles ------------ */
+.navbar-brand{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    background-color: black;
+    border: 1px solid white;
+}
+.nav-item a:hover{
+    background-color: darkgray;
+
+}
+/* Site Header Styles -------------- */
+.main-header{
+    
+}
+
+/* Menu Section styles -------------- */
+#chicken_section{
+    background-color: darkgray;
+}
+/* Computer and Tablet responsive styles----------- */
+@media (min-width: 576px) {
+    .navbar-nav{
+        display: none;
+    }
+}
