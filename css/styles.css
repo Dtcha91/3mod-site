@@ -19,13 +19,14 @@ body{
 
 }
 /* Site Header Styles -------------- */
-.main-header{
-    
+.main-header h2{
+    margin: 5px 10px 0;
 }
 
 /* Menu Section styles -------------- */
-#chicken_section{
+.sect-style{
     background-color: darkgray;
+    margin:auto;
 }
 /* Computer and Tablet responsive styles----------- */
 @media (min-width: 576px) {
